@@ -77,4 +77,11 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    public int charCount(City city) {
+        return city.getCityName().length();
+    }
+
 }
+
+

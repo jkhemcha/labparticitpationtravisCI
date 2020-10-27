@@ -33,6 +33,6 @@ class CityListTest {
     void testCharCount() {
         CityList cityList = mockCityList();
         assertEquals(1, cityList.countCities());
-        assertEquals(8, cityList.charCount);
+        assertEquals(8, cityList.charCount(mockCity()));
     }
 }
